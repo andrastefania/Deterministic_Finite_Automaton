@@ -1,0 +1,23 @@
+Automatul finit determinist:
+Stare initiala: 0
+Stari: 0 1 2 3 4 5 6 7 8 9 10 
+Alfabet: a b c 
+Stari finale: 6 10 
+Tranzitii:
+DELTA(0, a) = 1
+DELTA(1, b) = 2
+DELTA(2, a) = 3
+DELTA(3, a) = 4
+DELTA(3, b) = 5
+DELTA(3, c) = 6
+DELTA(4, a) = 7
+DELTA(5, b) = 8
+DELTA(6, a) = 9
+DELTA(7, a) = 4
+DELTA(7, b) = 5
+DELTA(7, c) = 6
+DELTA(8, a) = 4
+DELTA(8, b) = 5
+DELTA(8, c) = 6
+DELTA(9, b) = 10
+DELTA(10, a) = 9
